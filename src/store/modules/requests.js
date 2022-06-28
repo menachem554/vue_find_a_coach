@@ -1,7 +1,15 @@
 export default {
   namespaced: true,
-  state() {},
+  state() {
+    return {
+      userId: 'c3',
+    };
+  },
   mutations: {},
   actions: {},
-  getters: {},
+  getters: {
+    userId(state) {
+      return state.userId;
+    },
+  },
 };
