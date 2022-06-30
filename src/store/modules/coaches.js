@@ -39,6 +39,7 @@ export default {
         description: data.desc,
         hourlyRate: data.rate,
       };
+      console.log(coachData);
       context.commit('registerCoach', coachData);
     },
   },
