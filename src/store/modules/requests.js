@@ -21,6 +21,7 @@ export default {
 
       console.log(newRequest);
       context.commit('addRequest', newRequest);
+      Math.floor
     },
   },
   getters: {},
